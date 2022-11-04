@@ -1,0 +1,164 @@
+/* -------------------  MOBILE  --------------------- */
+
+:root {
+    --navItemsColor: #827397;
+    --navItemsColorHover: #fff;
+    --navColor: #4d4c7d;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    min-height: 100vh;
+    background-color: #202040;
+}
+
+nav {
+    padding: 3% 5% 3% 5%;
+    /* margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5%; */
+}
+li:hover {
+    color: var(--navItemsColorHover);
+    cursor: pointer;
+}
+h3 {
+    color: #827397;
+    padding-right: 15%;
+    font-weight: bold;
+    font-size: 30px;
+    left: 10px;
+}
+/* continer fo the cenerate tamblet from api */
+#container {
+    background-color: #827397;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#details p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #363062;
+}
+
+/* 
+footer {
+    /* footer styles */
+
+/*  */
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+    /* use mobile */
+    nav {
+        background-color: var(--navColor);
+        border-radius: 1%;
+        display: flex;
+        justify-content: space-between;
+        padding: 3% 1% 3% 1%;
+        margin-left: 12%;
+        /* margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 5%; */
+
+        position: fixed;
+
+        top: 2%;
+        width: 70%;
+        left: 5%;
+    }
+
+    main {
+        margin-top: 16%;
+        flex: 1;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    li {
+        margin-right: 25px;
+        font-size: 160%;
+        text-decoration: none;
+        color: var(--navItemsColor);
+    }
+
+    /* for navbar in the header */
+
+    /* continer fo the cenerate tamblet from api */
+    #container {
+        width: 500px;
+    }
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+    /* use mobile */
+    nav {
+        background-color: var(--navColor);
+        border-radius: 1%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1% 5% 1% 5%;
+        margin-left: 12%;
+        /* margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 5%; */
+        position: fixed;
+
+        top: 2%;
+        width: 70%;
+        left: 5%;
+    }
+
+    main {
+        margin-top: 10%;
+        flex: 1;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    li {
+        margin-right: 25px;
+        font-size: 170%;
+        text-decoration: none;
+        color: var(--navItemsColor);
+    }
+
+    /* for navbar in the header */
+
+    /* continer fo the cenerate tamblet from api */
+    #container {
+        width: 700px;
+    }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+    main {
+        margin-top: 10%;
+        flex: 1;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    li {
+        margin-right: 25px;
+        font-size: 170%;
+        text-decoration: none;
+        color: var(--navItemsColor);
+    }
+
+    /* for navbar in the header */
+
+    /* continer fo the cenerate tamblet from api */
+    #container {
+        width: 700px;
+    }
+
+    /* use mobile */
+}
