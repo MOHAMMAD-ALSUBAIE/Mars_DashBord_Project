@@ -2,7 +2,7 @@
 
 ## Student Instructions
 
-.to create this project we fetch data from NASA API
+.to create this project I fetch data from NASA API
 .In this Project, I used the ImmutableJS library, which helped me to make my application to be ImmtableJs and save the storge
 .to start the application you should first write this command (npm i)in the terminal
 .Fron Dashboard(navBar) you can choose which Mars rover you want to discover or see some details about it
